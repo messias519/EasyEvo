@@ -3,7 +3,7 @@ import '../../app.css'
 const Header = () => {
     return (
       <div className="header">
-        <img src="./src/components/header/header.png" alt=""/>
+        <img src="\img\header.png" alt=""/>
       </div>
     );
   };

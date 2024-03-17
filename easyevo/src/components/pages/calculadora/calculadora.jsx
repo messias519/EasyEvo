@@ -14,14 +14,14 @@ const Calculadora = () => {
                 <div className='calculadora'>
                     <div>
                         <Link to="/calculadora/clcr" > 
-                            <img src="/src/components/img/botao-clcr.png" alt="Clcr"/>
+                            <img src="\img\botao-clcr.png" alt="Clcr"/>
                         </Link>
                         <Link to="/calculadora/dva" > 
-                            <img src="/src/components/img/botao-dva.png" alt="Clcr"/>
+                            <img src="\img\botao-dva.png" alt="Clcr"/>
                         </Link>
                         <div className="voltar">
                             <Link to="/" >
-                                <img src="/src/components/img/botao-voltar.png" alt="Voltar"/>
+                                <img src="\img\botao-voltar.png" alt="Voltar"/>
                             </Link> 
                         </div>
                     </div>

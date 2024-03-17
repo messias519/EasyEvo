@@ -44,7 +44,7 @@ const ClCr = () => {
             </div>
             <div className="voltar">
                         <Link to="/calculadora" >
-                            <img src="/src/components/img/botao-voltar.png" alt="Voltar"/>
+                            <img src="\img\botao-voltar.png" alt="Voltar"/>
                         </Link> 
                     </div>
         </div>

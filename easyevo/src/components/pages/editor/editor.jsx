@@ -100,7 +100,7 @@ const Editor = () => {
                     
                 <div className="voltar">
                     <Link to="/" >
-                        <img src="/src/components/img/botao-voltar.png" alt="Voltar"/>
+                        <img src="\img\botao-voltar.png" alt="Voltar"/>
                     </Link> 
                 </div>
                 </div>
