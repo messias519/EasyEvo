@@ -10,10 +10,10 @@ const Home = () => {
       </Link>
       <div className="menu">
         <Link to="/calculadora">
-          <img src="./src/components/img/botao-calculadoras.png" alt="Calculadora"/>
+          <img src="/src/components/img/botao-calculadoras.png" alt="Calculadora"/>
         </Link>
         <Link to="/editor">
-          <img src="./src/components/img/botao-editordetexto.png" alt="Editor"/>
+          <img src="/src/components/img/botao-editordetexto.png" alt="Editor"/>
         </Link>
       </div>
      </div>
