@@ -1,0 +1,138 @@
+body {
+    background-color: #0CC0DF;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+
+/* Animações */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    
+  }
+ 
+.header img {    
+    padding: 10px;
+    transition: transform 0.5s ease;
+  }
+.header img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.voltar, .menu, .calculadora, .editor, .ClCr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}  
+
+.voltar, .calculadora img, .menu img {
+    
+    margin: 10px
+}
+
+.voltar img, .calculadora img, .menu img {    
+    transition: transform 0.3s ease; /* Transição suave ao interagir */
+}
+
+.voltar img:hover, .calculadora img:hover, .menu img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.editor-container, .calculadora-container {
+    display: flex;
+    font-size: 28px;
+    flex-direction: column;
+    align-items: center;  
+    margin: 20px;
+    border: black solid ;
+     
+}
+
+.calculadora-container-text{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+
+}
+
+.editor-title, .calculadora-container-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calculadora-resultado{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.editor-container, .editor-macros {
+    border: black solid ;
+}
+
+.editor-macros {
+    margin: 20px;
+    padding: 20px;
+    border: black solid ;
+    text-align: center;   
+}
+
+.editor-controls {
+    font-size: 20px;
+    text-align: center;    
+    margin: 10px;
+    
+}
+
+textarea {
+    width: 100%; /* Faz a textarea ocupar 100% da largura do seu contêiner */
+    box-sizing: border-box; /* Garante que o padding não adicione largura extra */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ccc; /* Borda sutil */
+    resize: vertical; /* Permite que o usuário ajuste a altura verticalmente */
+    line-height: 1; /* Aumenta um pouco o espaçamento entre as linhas */
+}
+
+@media screen and (max-width: 768px) {
+    textarea {
+        width: 90%; /* Ajusta a largura em telas menores */
+    }
+}
+
+input, select, textarea, button {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
